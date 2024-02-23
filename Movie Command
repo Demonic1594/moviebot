@@ -9,7 +9,7 @@ $if[$or[$toLowercase[$var[msg]]==jjk;$toLowercase[$var[msg]]==jujutsu kaisen]==t
 $c[=====JUJUTSU KAISEN=====]
 $c[=====JUJUTSU KAISEN=====]
 $var[series;jjk]
-$var[rating;$getUserVar[views]]
+$var[rating;8.6/10]
 $var[title;Jujutsu Kaisen
 ```TV-14.   Anime 2020. ```]
 $var[description;Idly indulging in baseless paranormal activities with the Occult Club, high schooler Yuuji Itadori spends his days at either the clubroom or the hospital, where he visits his bedridden grandfather. However, this leisurely lifestyle soon takes a turn for the strange when he unknowingly encounters a cursed item. Triggering a chain of supernatural occurrences, Yuuji finds himself suddenly thrust into the world of Curses—dreadful beings formed from human malice and negativity—after swallowing the said item, revealed to be a finger belonging to the demon Sukuna Ryoumen, the "King of Curses." Yuuji experiences first-hand the threat these Curses pose to society as he discovers his own newfound powers. Introduced to the Tokyo Metropolitan Jujutsu Technical High School, he begins to walk down a path from which he cannot return—the path of a Jujutsu sorcerer.
@@ -26,7 +26,7 @@ $elseif[$checkContains[$toLowercase[$var[msg]];cowboy bebop;kaubôi bibappu;kaub
 $c[=====COWBOY BEBOP=====]
 $c[=====COWBOY BEBOP=====]
 $var[series;cb|kb]
-$var[rating;$getUserVar[views1]]
+$var[rating;8.9/10]
 $var[title;Cowboy Bebop]
 $var[description;Enter a world in the distant future, where Bounty Hunters roam the solar system. Spike and Jet, bounty hunting partners, set out on journeys in an ever struggling effort to win bounty rewards to survive. While traveling, they meet up with other very interesting people. Could Faye, the beautiful and ridiculously poor gambler, Edward, the computer genius, and Ein, the engineered dog be a good addition to the group?
 
@@ -42,7 +42,7 @@ $elseif[$checkContains[$toLowercase[$var[msg]];black clover:movie;black clover:s
 $c[=====BLACK CLOVER=====]
 $c[=====BLACK CLOVER=====]
 $var[series;bc]
-$var[rating;$getUserVar[views2]]
+$var[rating;8.3/10]
 $var[title;Black Clover: Sword Of The Wizard King(dub)]
 $var[description;The beloved fantasy manga, "Black Clover," known for its magical battles and published in Shounen Jump, is soon to be transformed into a movie adaptation. Having been ranked number one in 87 countries and regions as an anime show, fans can look forward to reliving the protagonist's journey, full of obstacles and accomplishments, on the grand screen. Please be advised that further developments regarding this production may alter the current information.]
 $var[footer;Genre: Action,Comedy,dub]
@@ -51,7 +51,7 @@ $elseif[$checkContains[$toLowercase[$var[msg]];jojo;jojo's;jojo's bizarre advent
 $c[=====JOJOS BADVENTURE=====]
 $c[=====JOJOS BADVENTURE=====]
 $var[series;jjba]
-$var[rating;$getUserVar[views7]]
+$var[rating;7.8/10]
 $var[title;Jojo's Bizzare Adventure: Phantom Blood] 
 $var[description;A rivalry between two heirs to an estate escalates into a supernatural quest when one of them becomes a vampire and the other sets out to stop him.
 
@@ -67,7 +67,7 @@ $elseif[$or[$toLowercase[$var[msg]]==jjk0;$toLowercase[$var[msg]]==jujutsu kaise
 $c[=====JUJUTSU KAISEN 0=====]
 $c[=====JUJUTSU KAISEN 0=====]
 $var[series;jjk0]
-$var[rating;$getUserVar[views3]]
+$var[rating;8.2/10]
 $var[title;Jujutsu Kaisen 0]
 $var[description;Violent misfortunes frequently occur around 16-year-old Yuuta Okkotsu, a timid victim of high school bullying. Yuuta is saddled with a monstrous curse, a power that dishes out brutal revenge against his bullies. Rika Orimoto, Yuuta's curse, is a shadow from his tragic childhood and a potentially lethal threat to anyone who dares wrong him. Yuuta's unique situation catches the attention of Satoru Gojou, a powerful sorcerer who teaches at Tokyo Jujutsu High. Gojou sees immense potential in Yuuta, and he hopes to help the boy channel his deadly burden into a force for good. Yet Yuuta struggles to find his place among his talented classmates: the selectively mute Toge Inumaki, weapons expert Maki Zenin, and Panda. Yuuta clumsily utilizes Rika on missions with the other first-year students, but the grisly aftermath of Rika's tremendous displays of power draws the interest of the calculating curse user Suguru Getou. As Getou strives to claim Rika's strength and use it to eliminate all non-jujutsu users from the world, Yuuta fights alongside his friends to stop the genocidal plot.
 
@@ -83,7 +83,7 @@ $elseif[$checkContains[$toLowercase[$var[msg]];sousou no frieren;frieren]==true]
 $c[=====SOUSOU FRIEREN=====]
 $c[=====SOUSOU FREIREN=====]
 $var[series;snf]
-$var[rating;$getUserVar[views4]]
+$var[rating;8.8/10]
 $var[title;Sousou No Frieren]
 $var[description;The demon king has been defeated, and the victorious hero party returns home before disbanding. The four—mage Frieren, hero Himmel, priest Heiter, and warrior Eisen—reminisce about their decade-long journey as the moment to bid each other farewell arrives. But the passing of time is different for elves, thus Frieren witnesses her companions slowly pass away one by one. Before his death, Heiter manages to foist a young human apprentice called Fern onto Frieren. Driven by the elf's passion for collecting a myriad of magic spells, the pair embarks on a seemingly aimless journey, revisiting the places that the heroes of yore had visited. Along their travels, Frieren slowly confronts her regrets of missed opportunities to form deeper bonds with her now-deceased comrades.
 
@@ -99,7 +99,7 @@ $elseif[$checkContains[$toLowercase[$var[msg]];solo leveling;ore Dake level up n
 $c[=====SOLO LEVELING=====]
 $c[=====SOLO LEVELING=====]
 $var[series;sl]
-$var[rating;$getUserVar[views5]]
+$var[rating;10/10]
 $var[title;Solo leveling | ORE DAKE LEVEL UP NA KEN] 
 $var[description;Ten years ago, "the Gate" appeared and connected the real world with the realm of magic and monsters. To combat these vile beasts, ordinary people received superhuman powers and became known as "Hunters." Twenty-year-old Sung Jin-Woo is one such Hunter, but he is known as the "World's Weakest," owing to his pathetic power compared to even a measly E-Rank. Still, he hunts monsters tirelessly in low-rank Gates to pay for his mother's medical bills. However, this miserable lifestyle changes when Jin-Woo—believing himself to be the only one left to die in a mission gone terribly wrong—awakens in a hospital three days later to find a mysterious screen floating in front of him. This "Quest Log" demands that Jin-Woo completes an unrealistic and intense training program, or face an appropriate penalty. Initially reluctant to comply because of the quest's rigor, Jin-Woo soon finds that it may just transform him into one of the world's most fearsome Hunters.
 
@@ -115,7 +115,7 @@ $elseif[$checkContains[$toLowercase[$var[msg]];devilman crybaby;devilman]==true]
 $c[=====DEVILMAN CRYBABY=====]
 $c[=====DEVILMAN CRYBABY=====]
 $var[series;dmc]
-$var[rating;$getUserVar[views6]]
+$var[rating;7.8/10]
 $var[title;Devilman Crybaby]
 $var[description;Akira's best friend tells him that ancient demons have returned to take back the world from humans and suggests that he unite with a demon. Akira successfully does that, transforming into Devilman, a being with a demon's powers but who retains the soul of a human. This sends Akira into a brutal, degenerate war against evil. With fear of demons gripping the world, humanity devolves into paranoia and violence and Akira sets out to save other demon-human hybrids like himself.
 
@@ -140,7 +140,7 @@ $elseif[$checkContains[$toLowercase[$var[msg]];mha;my hero academia]==true]
 $c[=====MYHERO ACADEMIA=====]
 $c[=====MYHERO ACADEMIA=====]
 $var[series;mha]
-$var[rating;0]
+$var[rating;No Data]
 $var[title;MHA My censord Lil bro] 
 $var[description;MHA is a censored anime with a bad rating blah blah blah censored] 
 $var[footer;Genre:]
@@ -149,7 +149,7 @@ $elseif[$checkContains[$toLowercase[$var[msg]];mato;mato seihei no slave;soldier
 $c[=====mato seihei no slave=====]
 $c[=====mato seihei no slave=====]
 $var[series;mato]
-$var[rating;$getUserVar[views8]]
+$var[rating;6.9/10]
 $var[title;mato seihei no slave]
 $var[description;After his high school graduation, Yuuki Wakura realizes it has been five years since his sister's disappearance during a "Mato disaster." Throughout Japan, mysterious entrances have opened to a dimension called "Mato"—a demonic metropolis filled with disastrous monsters known as the "Shuuki" that threaten the safety of humans. However, a new hope arose, as the discovery of a Mato fruit that grants supernatural abilities exclusively to women allowed them to fight against the Shuuki. Due to this, a new matriarchal government was formed, establishing a female organization called the Anti-Demon Corps, which caused men to fall to the bottom of society.
 
