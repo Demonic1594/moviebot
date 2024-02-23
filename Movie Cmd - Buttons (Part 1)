@@ -1,6 +1,6 @@
 $nomention
 $textSplit[$customID;/]
-$onlyIf[$checkContains[$splitText[1];jjk;cb|kb;bc;jjba;jjk0;snf;sl;dmc;omp]==true;]
+$onlyIf[$checkContains[$splitText[1];jjk;cb|kb;bc;jjba;jjk0;snf;sl;dmc;omp;mato]==true;]
 $c[MAKE SURE TO EDIT THIS ↑ EVERYTIME YOU ADD ANOTHER SERIES. AND MAKE SURE YOU ALSO ADD THE RIGHT THINGS IN THE MAIN COMMAND.]
 $onlyIf[$authorID==$splitText[2];]
 
