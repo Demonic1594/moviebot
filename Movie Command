@@ -1,6 +1,7 @@
 $nomention
 $onlyIf[$or[$toLowercase[$message[1]]==movie;$toLowercase[$message[1]]==mov]==true;]
 $onlyIf[$guildID!=;]
+$botTyping
 $var[msg;$replaceText[$message;$message[1];;1]]
 
 $c[Series]
