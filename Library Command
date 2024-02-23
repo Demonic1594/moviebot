@@ -9,7 +9,11 @@ $thumbnail[$userAvatar[$mentioned[<;yes]]]
 $authorIcon[$userAvatar[$mentioned[<;yes]]]
 $color[$random[0;16777215]]
 $footer[Bots Uptime: $uptime] 
+$if[$getUserVar[library]!=]
 $addButton[no;1/$authorID;Remove All Library;danger;no;]
+$else
+$addButton[no;1/$authorID;Remove All Library;danger;yes;]
+$endif
 
 $textSplit[$getUserVar[library];§§§]
 $description[
@@ -24,8 +28,12 @@ $title[$username[$var[user]] Library]
 $thumbnail[$userAvatar[$var[user]]]
 $authorIcon[$userAvatar[$var[user]]]
 $color[$random[0;16777215]]
-$footer[Bots Uptime: $uptime] 
+$footer[Bots Uptime: $uptime]
+$if[$getUserVar[library]!=]
 $addButton[no;1/$authorID;Remove All Library;danger;no;]
+$else
+$addButton[no;1/$authorID;Remove All Library;danger;yes;]
+$endif
 
 $textSplit[$getUserVar[library;$var[user]];§§§]
 $description[
