@@ -4,7 +4,7 @@ An Open-Source BDFD-based movie/series bot. Free for everyone to use, consider g
 # Commands, How to use?
 - In the code editor, copy and paste this.
 ```
-$httpGet[https://raw.githubusercontent.com/RyuxKurenai/moviebot/main/(name)
+$httpGet[https://raw.githubusercontent.com/RyuxKurenai/moviebot/main/(name)]
 $eval[$httpResult]
 ```
 - Make sure to change the (name) to the command/onInteraction you're trying to get.
