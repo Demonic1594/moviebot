@@ -1,0 +1,68 @@
+$nomention
+$textSplit[$customID;/]
+$onlyIf[$checkContains[$splitText[1];jjkpage2;snfpage2]==true;]
+$c[MAKE SURE TO EDIT THIS ↑ EVERYTIME YOU ADD ANOTHER SERIES. AND MAKE SURE YOU ALSO ADD THE RIGHT THINGS IN THE OTHER INTERACTION PART.]
+$onlyIf[$authorID==$splitText[2];]
+
+$color[$random[0;16777215]]
+$if[$splitText[1]==jjkpage2]
+$description[ 
+- [Episode 13. Tomorrow\](https://drive.google.com/file/d/12QCG5F4xZfOVy59uhpvd_J7ImleX29u3/view?usp=drivesdk) 
+> Nanami steps in at the last second to save Itadori from Mahito's blow. Then, Itadori and Nanami match their attacks together to ensure they can exorcise Mahito. Mahito pulls out his transfigured humans in an attempt to mentally drive Itadori into a corner, but Itadori manages to overcome them. As Mahito grows trapped under their rain of blows he senses his pending death and creates a Domain Expansion. 
+Rated: 8.1/10
+
+- [Episode 14. Kyoto Sister School Exchange Event - Group Battle 1\](https://drive.google.com/file/d/12RLwH6WGnU26-WWimO-OqC-_SgrbZjdU/view?usp=drivesdk) 
+> Itadori Yuji and the rest of Tokyo Metropolitan Curse Technical School engage into their team battle against their sister school from Kyoto. However with the entire Kyoto team against Yuji, will he be able to last with his short training?
+Rated: 7.9/10]
+$removeComponent[jjkpage2/$authorID] 
+$addButton[no;jjk2/$authorID;Back;primary;no]
+
+$elseif[$splitText[1]==snfpage2]
+$description[
+- [Episodes 13. Aversion to One's Own Kind\](https://drive.google.com/file/d/13exuQsVQESYhBKBDm2R0YGXRwsXzhnj2/view?usp=drivesdk)
+> While passing by a village in the woods of the northern lands, Frieren and party meet Sein, a gifted priest who is nonetheless corrupt enough to give even Heiter a run for his money. 
+Rated: 8.4/10
+
+- [Episode 14. Privilege of the Young\](https://drive.google.com/file/d/13gmUyw7SURMl-cDrpzw2OkrBw9ID5cm5/view?usp=drivesdk)
+> The party arrives in a large and lively town that Frieren once visited with Himmel: something seems to have come up between Fern and Stark. 
+Rated: 8.8/10
+
+- [Episode 15. Smells Like Trouble\](https://drive.google.com/file/d/13jhECjilYLEq0ThtUm97zwc4LKsIt0Zc/view?usp=drivesdk) 
+> When the party comes to a town whose inhabitants are all mysteriously asleep, it's time for their new travelling companion to prove his mettle.
+Rated: 8.4/10
+
+- [Episode 16. Long-Lived Friends\](https://drive.google.com/file/d/142OaguOwbus6Ehdr8VT-UhML4VBzuc7G/view?usp=drivesdk) 
+> Frieren pays a visit to Old Man Voll with her travelling companions. 
+Rated: 8.2/10
+
+- [Episode 17. Take Care\](https://drive.google.com/file/d/145IwVl2v8Oi6z15f6JOxGCNMu3jDFUWL/view?usp=drivesdk)
+> Now that Sein finally has a lead on the whereabouts of his long-lost friend, is it time for him and Frieren's party to part ways?
+Rated: 8.4/10
+
+- [Episode 18. First-Class Mage Exam\](https://drive.google.com/file/d/14UQxQgM3Xny-QZfcL0Tl4JAjtF8e50Pl/view?usp=drivesdk) 
+> Frieren arrives in Äußerst. 
+Rated: 9.0/10
+
+- [Episode 19. Well-Laid Plans\](https://drive.google.com/file/d/14VZVbUQkUPjIbgmCBgJN1zC03yhNzKfX/view?usp=drivesdk) 
+> Frieren and her new teammates make a plan to capture a Stille.
+Rated: 9.2/10
+
+- [Episode 20. Nessesary Killing\](https://drive.google.com/file/d/14ir8ouwz4AUE6Oz14E3K2K__cb6uXTwc/view?usp=drivesdk) 
+> The first-class mage exam intensifies as fighting breaks out between the participants - and what's at stake might even be worth killing for. 
+Rated: 9.7/10
+
+- [Episode 21. The World Of Magic\](https://drive.google.com/file/d/15MLxaDWdNt54Y4ANvjfn-DmbulAL-dr0/view?usp=drivesdk) 
+> Frieren,kenne, and lawine struggle with the 13th party over possession of the stiller, but there'll be more surprises in store before their battle. And the first test,reach their conclusion. 
+Rated: 9.0/10
+
+- [Episode 22. Future Enemies.\](https://drive.google.com/file/d/15wiLkXgeXBCmIhm4gSMmeCyMt-U12Je2/view?usp=drivesdk) 
+> After the conclusion Of The First Test, The exam Participants have some time to kill in town. what do mages get up to on their days off?
+Rated: 8.0/10
+
+- [episode 23. Conquering the labyrinth\](https://drive.google.com/file/d/16w6Qq2u1ykwbJUD09ZQTxfW6EN68jdSA/view?usp=drivesdk) 
+> Rated: 8.0/10
+
+* episode 24. ( * Release date Vietnam time: Friday 23rd February at approximately 2pm (GMT) / 7am (PT) / 9am (CT).)]
+$removeComponent[snfpage2/$authorID] 
+$addButton[no;snf2/$authorID;Back;primary;no]
+$endif
