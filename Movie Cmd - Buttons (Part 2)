@@ -73,5 +73,5 @@ $addButton[no;snfpage3/$authorID;Next;primary;no]
 $elseif[$splitText[1]==snfpage3]
 $description[Oh... seems like you were able to access this page, well it this is still here wait for the developers to add the episodes.]
 $removeComponent[snfpage3/$authorID]
-$addButton[no;snfpage2/$authorID;Back;primary;yes]
+$addButton[no;snfpage2/$authorID;Back;primary;no]
 $endif
