@@ -8,9 +8,10 @@ $httpGet[https://raw.githubusercontent.com/RyuxKurenai/moviebot/main/(name)
 $eval[$httpResult]
 ```
 - Make sure to change the (name) to the command/onInteraction you're trying to get.
+- As for why we use $eval is so that we're able to diagnose the issues directly and there's no need for the users have a difficult time setting it up.
 
 # Variables
-- Format: (name: value), leave the value blank if it is stated in the value parameter to be blank. Do not put blank in the value.
+- Format: (name: value), leave the value blank if it is stated in the value parameter to be blank. Do not put blank in the value. This gets updated once a new variable is being used.
   > **library**: **blank**
   
 # Notes
