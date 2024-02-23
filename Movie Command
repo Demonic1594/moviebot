@@ -1,0 +1,209 @@
+$nomention
+$onlyIf[$or[$toLowercase[$message[1]]==movie;$toLowercase[$message[1]]==mov]==true;]
+$onlyIf[$guildID!=;]
+$var[msg;$replaceText[$message;$message[1];;1]]
+
+$c[Series]
+$if[$or[$toLowercase[$var[msg]]==jjk;$toLowercase[$var[msg]]==jujutsu kaisen]==true]
+$c[=====JUJUTSU KAISEN=====]
+$c[=====JUJUTSU KAISEN=====]
+$var[series;jjk]
+$var[rating;$getUserVar[views]]
+$var[title;Jujutsu Kaisen
+```TV-14.   Anime 2020. ```]
+$var[description;Idly indulging in baseless paranormal activities with the Occult Club, high schooler Yuuji Itadori spends his days at either the clubroom or the hospital, where he visits his bedridden grandfather. However, this leisurely lifestyle soon takes a turn for the strange when he unknowingly encounters a cursed item. Triggering a chain of supernatural occurrences, Yuuji finds himself suddenly thrust into the world of Curses—dreadful beings formed from human malice and negativity—after swallowing the said item, revealed to be a finger belonging to the demon Sukuna Ryoumen, the "King of Curses." Yuuji experiences first-hand the threat these Curses pose to society as he discovers his own newfound powers. Introduced to the Tokyo Metropolitan Jujutsu Technical High School, he begins to walk down a path from which he cannot return—the path of a Jujutsu sorcerer.
+
+- **Studio:** MAPPA
+- **Aired:** October 2020 to March 2021
+- **Episodes:** 47 total
+- **Complete:** no
+- **Series:** Manga Jujutsu Kaisen
+- **Mc/Main character: YUJI ITADORI**]
+$var[footer;Genre: Action, Cursed]
+$var[image;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz4blfs4DlELPe-Ynbtw9EQPSFZw1CIAYz_w&usqp=CAU]
+$elseif[$checkContains[$toLowercase[$var[msg]];cowboy bebop;kaubôi bibappu;kauboi bibappu]==true]
+$c[=====COWBOY BEBOP=====]
+$c[=====COWBOY BEBOP=====]
+$var[series;cb|kb]
+$var[rating;$getUserVar[views1]]
+$var[title;Cowboy Bebop]
+$var[description;Enter a world in the distant future, where Bounty Hunters roam the solar system. Spike and Jet, bounty hunting partners, set out on journeys in an ever struggling effort to win bounty rewards to survive. While traveling, they meet up with other very interesting people. Could Faye, the beautiful and ridiculously poor gambler, Edward, the computer genius, and Ein, the engineered dog be a good addition to the group?
+
+- **Studio:** Sunrise
+- **Aired:** April 3, 1998 – June 26, 1998
+- **Episodes:** 26
+- **Complete:** Yes
+- **Series:** Cowboy Bebop
+- **Main Character:** Spike Spiegel]
+$var[footer;Genre: Action, Space]
+$var[image;$randomText[https://cdn.discordapp.com/attachments/1184127228838166669/1198175227532808244/images.png?ex=65bdf2a3&is=65ab7da3&hm=1c795df86cf01bd08518cecabeae1dfb3bd1b39c697714313c4ccbb5c18c5645&;https://cdn.discordapp.com/attachments/1184127228838166669/1198175241113976832/images_9.jpg?ex=65bdf2a6&is=65ab7da6&hm=b9a39562180b2a4e368c82af0f36146876e22fe0e5afd2f4f9037420ae5fe266&]]
+$elseif[$checkContains[$toLowercase[$var[msg]];black clover:movie;black clover:sword of the wizard king;black clover: mahou tei no ken;black clover]==true]
+$c[=====BLACK CLOVER=====]
+$c[=====BLACK CLOVER=====]
+$var[series;bc]
+$var[rating;$getUserVar[views2]]
+$var[title;Black Clover: Sword Of The Wizard King(dub)]
+$var[description;The beloved fantasy manga, "Black Clover," known for its magical battles and published in Shounen Jump, is soon to be transformed into a movie adaptation. Having been ranked number one in 87 countries and regions as an anime show, fans can look forward to reliving the protagonist's journey, full of obstacles and accomplishments, on the grand screen. Please be advised that further developments regarding this production may alter the current information.]
+$var[footer;Genre: Action,Comedy,dub]
+$var[image;https://cdn.discordapp.com/attachments/1184127228838166669/1198221231569240074/images_9.jpg?ex=65be1d7b&is=65aba87b&hm=b6347280c2e85af8b4058abb25ca8ebf506119043be7e83b2b8b2df6844c038a&]
+$elseif[$checkContains[$toLowercase[$var[msg]];jojo;jojo's;jojo's bizarre adventure;jojos bizarre adventure;jojo bizarre adventure]==true]
+$c[=====JOJOS BADVENTURE=====]
+$c[=====JOJOS BADVENTURE=====]
+$var[series;jjba]
+$var[rating;$getUserVar[views7]]
+$var[title;Jojo's Bizzare Adventure: Phantom Blood] 
+$var[description;A rivalry between two heirs to an estate escalates into a supernatural quest when one of them becomes a vampire and the other sets out to stop him.
+
+- **Studio:** David Production
+- **Aired:** October 5, 2012 – April 5, 2013
+- **Episodes:** 9
+- **Complete:** Yes
+- **Series:** JoJo's Bizarre Adventure
+- **Main Character:** Jonathan Joestar]
+$var[footer;Genre: Action, Drama]
+$var[image;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWwvJUYqVeAAFqNLPDJbAULrXqA64y0UzTFA&usqp=CAU]
+$elseif[$or[$toLowercase[$var[msg]]==jjk0;$toLowercase[$var[msg]]==jujutsu kaisen 0]==true]
+$c[=====JUJUTSU KAISEN 0=====]
+$c[=====JUJUTSU KAISEN 0=====]
+$var[series;jjk0]
+$var[rating;$getUserVar[views3]]
+$var[title;Jujutsu Kaisen 0]
+$var[description;Violent misfortunes frequently occur around 16-year-old Yuuta Okkotsu, a timid victim of high school bullying. Yuuta is saddled with a monstrous curse, a power that dishes out brutal revenge against his bullies. Rika Orimoto, Yuuta's curse, is a shadow from his tragic childhood and a potentially lethal threat to anyone who dares wrong him. Yuuta's unique situation catches the attention of Satoru Gojou, a powerful sorcerer who teaches at Tokyo Jujutsu High. Gojou sees immense potential in Yuuta, and he hopes to help the boy channel his deadly burden into a force for good. Yet Yuuta struggles to find his place among his talented classmates: the selectively mute Toge Inumaki, weapons expert Maki Zenin, and Panda. Yuuta clumsily utilizes Rika on missions with the other first-year students, but the grisly aftermath of Rika's tremendous displays of power draws the interest of the calculating curse user Suguru Getou. As Getou strives to claim Rika's strength and use it to eliminate all non-jujutsu users from the world, Yuuta fights alongside his friends to stop the genocidal plot.
+
+- **Studio:** MAPPA
+- **Aired:** December 24, 2021
+- **Episodes:** 1 (Movie)
+- **Complete:** Yes
+- **Series:** Jujutsu Kaisen
+- **Main Character:** Yuta Okkotsu] 
+$var[footer;Genre: Action,fantasy] 
+$var[image;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ6WL-wrI41gR4HzUUX_ZftO4CzDi53RHrXw&usqp=CAU] 
+$elseif[$checkContains[$toLowercase[$var[msg]];sousou no frieren;frieren]==true]
+$c[=====SOUSOU FRIEREN=====]
+$c[=====SOUSOU FREIREN=====]
+$var[series;snf]
+$var[rating;$getUserVar[views4]]
+$var[title;Sousou No Frieren]
+$var[description;The demon king has been defeated, and the victorious hero party returns home before disbanding. The four—mage Frieren, hero Himmel, priest Heiter, and warrior Eisen—reminisce about their decade-long journey as the moment to bid each other farewell arrives. But the passing of time is different for elves, thus Frieren witnesses her companions slowly pass away one by one. Before his death, Heiter manages to foist a young human apprentice called Fern onto Frieren. Driven by the elf's passion for collecting a myriad of magic spells, the pair embarks on a seemingly aimless journey, revisiting the places that the heroes of yore had visited. Along their travels, Frieren slowly confronts her regrets of missed opportunities to form deeper bonds with her now-deceased comrades.
+
+- **Studio:** madhouse
+- **Aired:** April 28, 2020
+- **Episodes:** 20
+- **Complete:** ?
+- **Series:** sousou no frieren
+- **Main Character:** frieren] 
+$var[footer;Genre: Advanture, Drama] 
+$var[image;$randomText[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJbXeDh14PriFB37HPO2luJlqPE5wtpO5YKQ&usqp=CAU;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaFRbmPxXE8F8DCSxYoCkjhTlXSapNM0vh0A&usqp=CAU]] 
+$elseif[$checkContains[$toLowercase[$var[msg]];solo leveling;ore Dake level up na ken]==true]
+$c[=====SOLO LEVELING=====]
+$c[=====SOLO LEVELING=====]
+$var[series;sl]
+$var[rating;$getUserVar[views5]]
+$var[title;Solo leveling | ORE DAKE LEVEL UP NA KEN] 
+$var[description;Ten years ago, "the Gate" appeared and connected the real world with the realm of magic and monsters. To combat these vile beasts, ordinary people received superhuman powers and became known as "Hunters." Twenty-year-old Sung Jin-Woo is one such Hunter, but he is known as the "World's Weakest," owing to his pathetic power compared to even a measly E-Rank. Still, he hunts monsters tirelessly in low-rank Gates to pay for his mother's medical bills. However, this miserable lifestyle changes when Jin-Woo—believing himself to be the only one left to die in a mission gone terribly wrong—awakens in a hospital three days later to find a mysterious screen floating in front of him. This "Quest Log" demands that Jin-Woo completes an unrealistic and intense training program, or face an appropriate penalty. Initially reluctant to comply because of the quest's rigor, Jin-Woo soon finds that it may just transform him into one of the world's most fearsome Hunters.
+
+Studio: A1 - pictures
+Aired: January 7, 2024  
+Episodes: 3
+Complete: no
+Series: anime
+Mc/Main character: Sung Jinwoo]
+$var[footer;Genre: Action, Adventure] 
+$var[image;https://cdn.oneesports.gg/cdn-data/2022/01/Gaming_Solo_Leveling_featured.webp]
+$elseif[$checkContains[$toLowercase[$var[msg]];devilman crybaby;devilman]==true]
+$c[=====DEVILMAN CRYBABY=====]
+$c[=====DEVILMAN CRYBABY=====]
+$var[series;dmc]
+$var[rating;$getUserVar[views6]]
+$var[title;Devilman Crybaby]
+$var[description;Akira's best friend tells him that ancient demons have returned to take back the world from humans and suggests that he unite with a demon. Akira successfully does that, transforming into Devilman, a being with a demon's powers but who retains the soul of a human. This sends Akira into a brutal, degenerate war against evil. With fear of demons gripping the world, humanity devolves into paranoia and violence and Akira sets out to save other demon-human hybrids like himself.
+
+- **Studio:** Science SARU
+- **Aired:** January 5, 2018 – January 5, 2018
+- **Episodes:** 10
+- **Complete:** Yes
+- **Series:** Devilman Crybaby
+- **Main Character:** Akira Fudo (Devilman)]
+$var[footer;Genre: Horror] 
+$var[image;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Dv-z290RzOIZ78-az1ZBSkwaHcHS9zgO9TrK0swsVg&s] 
+$elseif[$checkContains[$toLowercase[$var[msg]];one punch man;saitama;opm]==true]
+$c[=====ONEPUNCH MAN=====]
+$c[=====ONEPUNCH MAN=====]
+$var[series;opm]
+$var[rating;No Data]
+$var[title;One Punch Man]
+$var[description;Superheroes often have exciting superpowers that help them defeat the evil villains that they battle, but that's not necessarily the case for Saitama. Although he's a superhuman, his power isn't as exciting as X-ray vision or invincibility -- instead, he has the ability to defeat any opponent with a single punch, and this power has both pros and cons. The biggest advantage is that it makes it easy for him to defeat enemies -- which is essential because he lives in an alternate Japan that is constantly under attack by monsters -- but because it doesn't take long to throw a punch, easily vanquishing his foes leads to constant boredom.]
+$var[footer;Genre:] 
+$var[image;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTRYKbKd0nfD30EydQ1gwfcHn3UuXVgg51Ag&usqp=CAU] 
+$elseif[$checkContains[$toLowercase[$var[msg]];mha;my hero academia]==true]
+$c[=====MYHERO ACADEMIA=====]
+$c[=====MYHERO ACADEMIA=====]
+$var[series;mha]
+$var[rating;0]
+$var[title;MHA My censord Lil bro] 
+$var[description;MHA is a censored anime with a bad rating blah blah blah censored] 
+$var[footer;Genre:]
+$var[image;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT18Ux_bZAeFAbdp1kYxRn4WVbQWMiiNMLpzA&usqp=CAU]
+$elseif[$checkContains[$toLowercase[$var[msg]];mato;mato seihei no slave;soldiers]==true]
+$c[=====mato seihei no slave=====]
+$c[=====mato seihei no slave=====]
+$var[series;mato]
+$var[rating;$getUserVar[views8]]
+$var[title;mato seihei no slave]
+$var[description;After his high school graduation, Yuuki Wakura realizes it has been five years since his sister's disappearance during a "Mato disaster." Throughout Japan, mysterious entrances have opened to a dimension called "Mato"—a demonic metropolis filled with disastrous monsters known as the "Shuuki" that threaten the safety of humans. However, a new hope arose, as the discovery of a Mato fruit that grants supernatural abilities exclusively to women allowed them to fight against the Shuuki. Due to this, a new matriarchal government was formed, establishing a female organization called the Anti-Demon Corps, which caused men to fall to the bottom of society.
+
+When Yuuki suddenly finds himself in Mato, he is unable to escape on his own. But just as he anticipates a gruesome end by the Shuuki, a girl in a militia outfit appears and protects him. As the chief of the Seventh Unit of the Anti-Demon Corps, Kyouka Uzen is ambitious yet devalued by her own peers due to her power being deemed unusual. Now in a life-or-death situation, Kyouka takes the opportunity to find out the true potential of her superpower by using Yuuki: in order to defeat the Shuuki, he has to become her slave.
+
+- **Studio:** J.C. Staff
+- **Aired:** The anime adaptation aired from October 2021 to December 2021.
+- **Episodes:** It consists of 12 episodes.
+- **Complete:** Yes, the anime adaptation is complete.
+- **Series:** "Mato Seihei no Slave" is the name of the series.
+- **Main Character:** The main character is Akira, a young man who becomes a "Slave" with special powers to fight against the "Huge." ] 
+$var[footer;Genre: Action dark Fantasy]
+$var[image;$randomText[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxukX8TxnDQYoS2yMal-tIok5hYZt2QNTHYA&usqp=CAU;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXJahVLtNMx7Wk_6MTVrFfhzP-7cXFJr_YxQ&usqp=CAU]]
+
+
+$else
+$title[**🎬 Welcome, $username**!] 
+$addField[Information;
+**Explore Our Movie Collection:**
+- **Jujutsu Kaisen (Dub):** `/movie jjk(dub)`
+- **Cowboy Bebop:** `/movie cowboy bebop`
+- **Black Clover: Sword of the Wizard King:** `/movie Black Clover: Sword of the wizard king`
+- **Jojo's Bizarre Adventure:** `/movie jojo`
+- **Jujutsu Kaisen 0:** `/movie jujutsu kaisen 0`
+- **Frieren: Beyond Journey's End:** `/movie Frieren`
+- **Solo Leveling** `/movie solo leveling `
+
+<:JJKGojoGasm:1200292753280614481> Dive into seamless, ad-free streaming of high-definition 1080p videos directly from Google Drive, courtesy of our user-friendly Discord bot.]
+$footer[Bot Ping: $ping | Bot Uptime: $uptime] 
+$newSelectMenu[library/$authorID;1;1]
+$addSelectMenuOption[library/$authorID;libraryreset;1;]
+$addSelectMenuOption[library/$authorID;Settings;2;]
+$addSelectMenuOption[library/$authorID;Random Movie;3;]
+$var[button;no]
+$endif
+$c[Series]
+
+$title[$var[title]]
+$color[$random[0;16777215]]
+$description[$var[description]]
+$footer[$var[footer]]
+$image[$var[image]]
+
+$if[$var[button]==]
+$if[$checkContains[$var[series];mha;dmc;opm]==false]
+$c[add or remove the series in the checkcontains if you still haven't added the episodes or haven't finished the add to library]
+$if[$checkContains[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$getUserVar[library];Jujutsu Kaisen;jjk;1];Cowboy Bebop;cb|kb;1];Jojo's Bizzare Adventure: Phantom Blood;jjba;1];Sousou No Frieren;snf;1];Jujutsu Kaisen 0;jjk0;1];Solo Leveling | Ore Dake Level Up Na Ken;sl;1];Black Clover: Sword of The Wizard King;bc;1];mato seihei no slave;mato;1];$var[series]]==false]
+$addButton[no;$var[series]1/$authorID;Add to library;danger;no;]
+$else
+$addButton[no;$var[series]1/$authorID;Add to library;danger;yes;]
+$endif
+$addButton[no;$var[series]2/$authorID;Watch Now;primary;no;]
+$endif
+$addButton[no;$var[series]3/$authorID;Rating: $var[rating];secondary;yes;👁️]
+$if[$checkContains[$var[series];cb/kb]==true]
+$addButton[no;$var[series];completed;success;yes;]
+$endif
+$endif
