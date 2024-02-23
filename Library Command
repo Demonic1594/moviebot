@@ -9,74 +9,28 @@ $thumbnail[$userAvatar[$mentioned[<;yes]]]
 $authorIcon[$userAvatar[$mentioned[<;yes]]]
 $color[$random[0;16777215]]
 $footer[Bots Uptime: $uptime] 
+$addButton[no;1/$authorID;Remove All Library;danger;no;]
 
-$addButton[no;test/$authorID;Remove All Library;danger;no;]
-$c[=====]
-$if[$getUserVar[fried;$mentioned[1;yes]]!=]
-$addField[•;$getUserVar[fried;$mentioned[1;yes]]]
-$endif
-$if[$getUserVar[Jjk;$mentioned[1;yes]]!=]
-$addField[•;$getUserVar[Jjk;$mentioned[1;yes]]]
-$endif
-$if[$getUserVar[Jojo;$mentioned[1;yes]]!=]
-$addField[•;$getUserVar[Jojo;$mentioned[1;yes]]]
-$endif 
-$if[$getUserVar[Bj;$mentioned[1;yes]]!=]
-$addField[•;$getUserVar[Bj;$mentioned[1;yes]]]
-$endif
-$if[$getUserVar[Cowboy;$mentioned[1;yes]]!=]
-$addField[•;$getUserVar[Cowboy;$mentioned[1;yes]]]
-$endif
-$c[=====]
-$if[$getUserVar[0;$mentioned[1;yes]]!=]
-$addField[•;$getUserVar[0;$mentioned[1;yes]]]
-$endif
-$if[$getUserVar[solome;$mentioned[1;yes]]!=]
-$addField[•;$getUserVar[solome;$mentioned[1;yes]]]
-$endif
-$if[$getUserVar[devil;$mentioned[1;yes]]!=]
-$addField[•;$getUserVar[devil;$mentioned[1;yes]]]
-$endif
-$if[$getUserVar[mato;$mentioned[1;yes]]!=]
-$addField[•;$getUserVar[mato;$mentioned[1;yes]]]
-$endif
-$c[=====]
+$textSplit[$getUserVar[library];§§§]
+$description[
+$trimSpace[$replaceText[$replaceText[$checkCondition[$replaceText[$joinSplitText[
+];
+;-1]==];true;> You currently don't have anything in your library;1];false;$joinSplitText[
+]]]]
 $else
-
 $var[user;$replaceText[$replaceText[$checkCondition[$message[mention]==];true;$authorID;1];false;$message[mention];1]]
 
 $title[$username[$var[user]] Library] 
-$thumbnail[$userAvatar[$var[user]]] 
-$authorIcon[$userAvatar[$var[user]]] 
+$thumbnail[$userAvatar[$var[user]]]
+$authorIcon[$userAvatar[$var[user]]]
 $color[$random[0;16777215]]
 $footer[Bots Uptime: $uptime] 
+$addButton[no;1/$authorID;Remove All Library;danger;no;]
 
-$addButton[no;test/$authorID;Remove All Library;danger;no;]
-$c[=====]
-$if[$getUserVar[fried;$var[user]]!=]
-$addField[•;$getUserVar[fried;$var[user]]]
-$endif
-$if[$getUserVar[Jjk;$var[user]]!=]
-$addField[•;$getUserVar[Jjk;$var[user]]]
-$endif
-$if[$getUserVar[Jojo;$var[user]]!=]
-$addField[•;$getUserVar[Jojo;$var[user]]]
-$endif 
-$if[$getUserVar[Bj;$var[user]]!=]
-$addField[•;$getUserVar[Bj;$var[user]]]
-$endif
-$if[$getUserVar[Cowboy;$var[user]]!=]
-$addField[•;$getUserVar[Cowboy;$var[user]]]
-$endif
-$c[=====]
-$if[$getUserVar[0;$var[user]]!=]
-$addField[•;$getUserVar[0;$var[user]]]
-$endif
-$if[$getUserVar[solome;$var[user]]!=]
-$addField[•;$getUserVar[solome;$var[user]]]
-$endif
-$if[$getUserVar[devil;$var[user]]!=]
-$addField[•;$getUserVar[devil;$var[user]]]
-$endif
-$c[=====]
+$textSplit[$getUserVar[library;$var[user]];§§§]
+$description[
+$trimSpace[$replaceText[$replaceText[$checkCondition[$replaceText[$joinSplitText[
+];
+;-1]==];true;> You currently don't have anything in your library;1];false;$joinSplitText[
+]]]]
 $endif
