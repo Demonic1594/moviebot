@@ -1,6 +1,6 @@
 $nomention
 $textSplit[$customID;/]
-$onlyIf[$checkContains[$splitText[1];jjkpage2;snfpage2]==true;]
+$onlyIf[$checkContains[$splitText[1];jjkpage2;snfpage2;snfpage3]==true;]
 $c[MAKE SURE TO EDIT THIS ↑ EVERYTIME YOU ADD ANOTHER SERIES. AND MAKE SURE YOU ALSO ADD THE RIGHT THINGS IN THE OTHER INTERACTION PART.]
 $onlyIf[$authorID==$splitText[2];]
 
@@ -68,4 +68,10 @@ Rated: 8.0/10
 Rated: No Data/10]
 $removeComponent[snfpage2/$authorID] 
 $addButton[no;snf2/$authorID;Back;primary;no]
+$addButton[no;snfpage3/$authorID;Next;primary;no]
+
+$elseif[$splitText[1]==snfpage3]
+$description[Oh... seems like you were able to access this page, well it this is still here wait for the developers to add the episodes.]
+$removeComponent[snfpage3/$authorID]
+$addButton[no;snfpage2/$authorID;Back;primary;yes]
 $endif
