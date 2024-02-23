@@ -68,7 +68,7 @@ Rated: 8.0/10
 Rated: No Data/10]
 $removeComponent[snfpage2/$authorID] 
 $addButton[no;snf2/$authorID;Back;primary;no]
-$addButton[no;snfpage3/$authorID;Next;primary;no]
+$addButton[no;snfpage3/$authorID;Next;primary;yes]
 
 $elseif[$splitText[1]==snfpage3]
 $description[Oh... seems like you were able to access this page, well it this is still here wait for the developers to add the episodes.]
