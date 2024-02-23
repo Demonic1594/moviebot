@@ -176,7 +176,7 @@ $addField[Information;
 - **Frieren: Beyond Journey's End:** `/movie Frieren`
 - **Solo Leveling** `/movie solo leveling `
 
-<:JJKGojoGasm:1200292753280614481> Dive into seamless, ad-free streaming of high-definition 1080p videos directly from Google Drive, courtesy of our user-friendly Discord bot.]
+- Dive into seamless, ad-free streaming of high-definition 1080p videos directly from Google Drive, courtesy of our user-friendly Discord bot.]
 $footer[Bot Ping: $ping | Bot Uptime: $uptime] 
 $newSelectMenu[library/$authorID;1;1]
 $addSelectMenuOption[library/$authorID;libraryreset;1;]
