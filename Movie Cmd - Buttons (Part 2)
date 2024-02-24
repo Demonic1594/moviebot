@@ -71,7 +71,8 @@ $addButton[no;snf2/$authorID;Back;primary;no]
 $addButton[no;snfpage3/$authorID;Next;primary;no]
 
 $elseif[$splitText[1]==snfpage3]
-$description[- Episode 25. A Fetal Vulnerability(UPCOMING Philippines Time Friday, March 1 11 pm)
+$description[- Episode 25. A Fetal Vulnerability
+(UPCOMING Philippines Time Friday, March 1 11 pm)
 Rated: No Data/10]
 $removeComponent[snfpage3/$authorID]
 $removeComponent[snf2/$authorID]
