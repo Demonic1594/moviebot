@@ -16,3 +16,6 @@ $eval[$httpResult]
   
 # Notes
 - When the code in Github has been edited, it'll take a few minutes for it to be rolled out to everyone and for it to affect the commands as is. We do not have any power on being able to update the github raw content instantly.
+
+# Important
+- This isnt maintained!
